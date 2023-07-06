@@ -54,3 +54,47 @@ Layer 7: Application Layer
 	HTTP, FTP, DNS, POP3
 	Deals with:
 		Your eyes
+  Real-World OSI Model Example: Sending and receiving information in Google Mail
+Layer 7: Application 
+	Login to Google https://mail.google.com
+Layer 6: Presentation
+	The data is encrypted in the layer when sending information back and forth
+Layer 5: Session 
+	Links together the application and presentation layers to the layers below (layers 4 - 1)
+Layer 4: Transport
+	Uses TCP encapsulation to send the data
+Layer 3: Network
+	IP addresses that are used from your workstation and the Google email server
+Layer 2: Data Link
+All the TCP and IP traffic is encapsulated within Ethernet frames, then those frames are sent over the network 
+Layer 1: Physical 
+	The physical signals that are used to send the frames from one device to another 
+
+
+DATA COMMUNICATION
+
+Protocol Data Unit (PDU)
+	Sometimes known as Transmission units
+	A different group of data at different OSI layers
+
+Encapsulation 
+Layers 5,6,7: Application Data
+Layer 4: TCP Header + Application Data
+Layer 3: IP Header + TCP Header + Application Data
+Layer 2: Framer Header + IP Header + TCP Header + Application Data + Frame Trailer
+
+Decapsulation
+Layer 2: Framer Header + IP Header + TCP Header + Application Data + Frame Trailer
+Layer 3: IP Header + TCP Header + Application Data
+Layer 4: TCP Header + Application Data
+Layers 5,6,7: Application Data
+
+Transmission Control Protocol(TCP)
+Communication standard for delivering data and messages through networks
+TCP Flags
+The header describes or identifies the payload
+The TCP Header contains important control information
+	Includes a set of bits called TCP flags
+The flags control the payload
+	SYN - Synchronize sequence numbers
+
