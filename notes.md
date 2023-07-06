@@ -97,4 +97,46 @@ The TCP Header contains important control information
 	Includes a set of bits called TCP flags
 The flags control the payload
 	SYN - Synchronize sequence numbers
+ 	PSH - push the data to the application without buffering
+	RST - reset the connection
+	FIN - last packet from the sender
+
+Maximum Transmission Unit (MTU)
+Maximum IP packet to transmit
+Fragmentation slows things down
+	Losing a framgent loses an entire packet
+	Requires overhead along the path
+Difficult to know the MTU all the way through
+	Automated methods are often inaccurate 
+	Especially when ICMP is filtered
+
+IP Fragmentation
+The process that breaks packets into smaller pieces
+Fragments are always in multiples of 8 because of the number of fragmentation offset bits in the IP header
+
+Troubleshooting MTU
+MTU sizes are usually configured once 
+	Based on the network infrastructure and doesn’t change often
+A significant concern for tunned traffic
+	The tunnel may be smaller than your local Ethernet segment
+What if you send packets with a Don’t Fragment (DF) set?
+	Routers will respond back and tell you to fragment
+Troubleshooting using ping
+	The maximum size you can send when DF is set is 1472 bites 
+	Command
+	Windows: ping -f -l 1472 8.8.8.8
+		-f represents don’t fragment
+		-l represents
+		1472 is the bit size you want to send
+		8.8.8.8 is the IP address 
+	Linux and macOS: ping -D -s 1472 8.8.8.8
+
+
+NETWORK TOPOLOGIES AND TYPES
+Network Topologies
+Useful in planning a new network
+	The physical layout of a building or campus
+Assists in the understanding signal flow
+	Helps with troubleshooting problems
+
 
