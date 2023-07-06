@@ -139,4 +139,24 @@ Useful in planning a new network
 Assists in the understanding signal flow
 	Helps with troubleshooting problems
 
+Star Topology
+May be referred to as hub and spoke
+Used in most large and small networks
+All devices are connected to a central device
+Swtiched Ethernet networks
+	The switch is in the middle
+
+Ring Topology
+Used in many popular topologies
+Still used in many Metro Area Networks (MANs) and Wide Area Networks (WANs)
+	Dual rings 
+	Built-in fault tolerance 
+
+Bus Typology
+Early local area networks
+	Coaxical cable was the bus
+Simple, but prone to errors
+	One break in the link disabled the entire network
+
+
 
