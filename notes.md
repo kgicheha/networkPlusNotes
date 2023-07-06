@@ -157,6 +157,29 @@ Early local area networks
 	Coaxical cable was the bus
 Simple, but prone to errors
 	One break in the link disabled the entire network
+Mesh Topology
+Multiple links to the same place
+	Fully connected
+	Partially connected 
+Helps deal with redundancy, fault-tolerance, load balancing
+Used in wide area networks (WANs)
+	Fully meshed and partially meshed
+Commonly used in IOT devices
+
+Hybrid Topology
+A combination of one or more physical topologies 
+Most networks are a hybrid	
+
+Wireless topology
+Infrastructure
+	All devices communicate through an access point
+	The most common wireless communication mode
+Ad hoc networking
+	No pre-existing infrastructure
+	Devices communication amongst themselves
+Mesh
+	Ad hoc devices work together to form a mesh “cloud”
+	Self form and self heal
 
 
 
