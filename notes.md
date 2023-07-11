@@ -1024,3 +1024,52 @@ Qurantine network, notify administrators
 Once resolved, try again
 	May require additional fixes
 
+Risk Assessment
+Identify assets that could be affected by an attack
+	Define the risk associated with each asset
+	Hardware, customer data, intellectual property
+Identify threats
+	Loss of data, disruption fo services, etc. 
+Determine the risk
+	High, medium, or low risk
+Process assessment
+	Make future security plans
+
+Vendors
+Every organization works with vendors
+E.g. payroll, customer relationship management	
+Important company data is often shared
+	May be required for cloud-based services
+Perform a risk assessment
+	Categorize risk by vendor and manage the risk
+Use contracts for clear understanding 
+	Make sure everyone understands the expectations
+	Use the contract to enforce a secure environment
+
+Security Information and Event Management (SIEM)
+Logging of security events and information
+Security alerts
+	Real-time information
+Log aggregation and long-term storage
+	Usually includes advanced reporting features
+
+Getting the data
+Sensors and logs
+	Operating systems
+	Infrastructure devices
+	NetFlow sensors
+Sensitivity settings
+	Easy to be overwhelmed with data
+	Some information is unnecessary
+	Informational, Warning, Urgent
+Trends
+	Identify changes over time
+	Easily view constant attack metrics
+Alerts
+	Identfiy a security event
+	View raw data
+	Visualizze the log information
+Correlation
+	Combine and compare
+	View data in different ways
+
