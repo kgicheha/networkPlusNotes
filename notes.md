@@ -987,3 +987,40 @@ Test from the outside and inside
 	Don’t miss insider threats
 Gather as much information as possible 
 
+Vulnerability Scan Results
+Lack of security controls
+	No firewall
+	No anti-virus
+	No anti-spyware
+Misconfigurations
+	Open shares
+	Guess access
+Real vulnerabilities
+	Especially newer ones
+	Occassionally the old ones 
+
+Penetration testing
+Pentest
+	Simulate an attack
+Similar to vulnerability scanning 
+	Except we actually try to exploit the vulnerability 
+
+Posture Assessment
+You can’t trust everyone’s computer
+	BYOD (bring your own device)
+	Malware infections/ missing anti-malware
+	Unauthorized applications
+Before connecting to the network, performa a health check
+	Is it a trusted device?
+	Is it running anti-virus? Which one? Is it updated?
+	Are the corporate applications installed?
+	Is it a mobile device? Is it encrypted?
+
+Failuring your assessment
+What happens when a posture assessment fails?
+	Too dangerous to allow access
+Qurantine network, notify administrators
+	Just enough network access to fix the issue
+Once resolved, try again
+	May require additional fixes
+
