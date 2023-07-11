@@ -914,4 +914,35 @@ Virtual Local Area Networks(VLANs)
 	Separated logically instead of physically
 	Cannot communicate between VLANs withough a Layer 3 device/ router
 
+Screened subnet
+Previously known as a Demilitarized zone (DMZ)
+	An additionals layer of security between the internet and you
+	Public access to public resources
 
+
+Separation of duties
+Split knowledge
+	No one person has all the details
+	Half of a safe combination
+Dual control
+	Two people must be present to perform the business function
+	Two keys open a safe
+
+Network Access Control
+IEEE 802.X  - Port-based Network Access Control (NAC)
+We’re talking about physical interfaces
+	Not TCP or UDP ports
+Makes extensive use of EAP and RADIUS
+	EAP - Extensible Authentication Protocol
+	RADIUS - Remote Authenitcation Dial In User Service
+Administrator enable/disable
+	Disable your unused ports
+Check for duplicated MAC addresses
+
+Honeypots
+Attract the bad guys
+	An trap them there
+The “attacker” is probably a machine
+	Makes for interesting recon
+Honeypots
+	Create  a virtual world to explore
