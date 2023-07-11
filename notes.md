@@ -946,3 +946,44 @@ The “attacker” is probably a machine
 	Makes for interesting recon
 Honeypots
 	Create  a virtual world to explore
+ Many different options
+	Kippo, Google Hack Honeypot, Wordpot, etc
+
+
+AUTHENTICATION METHODS
+
+Local Authentication
+Authentication credentials are stored on the local device
+	Must be individuals administered
+Very manual process
+	A password change must be done manually on all devices
+Does’t rely on a  third-party authentication server
+	A network outage wo’nt impact the login process
+
+Terminial Acces Controller Access-Control System (TACACS)
+	Remote authentication protocol
+	Created to control access to dial-up lines to ARPANET
+
+Kerberos
+Network authentication protocol 
+	Authenticate once, trusted by the system
+	No need to re-authenticate to everything
+
+
+RISK MANAGEMENT
+
+Threat Assessment
+	Research the threats and the threat actors
+Make decisions based on this intelligence
+	Invest in the best prevention
+
+Vulnerability Assessment
+Usually minimally invasive
+	Unline a penetration test
+Run a vulnerability scanner
+	Poke around and see what’s open
+Identify systems and security devices
+Test from the outside and inside
+	Don’t miss insider threats
+Gather as much information as possible 
+
