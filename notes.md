@@ -897,5 +897,21 @@ Everything must be verified
 Multifactor authentication, encryption, system permissions, additional firewalls, monitoring and analytics, etc
 
 DEFENCE IN DEPTH
+Layering The Defense
+Physical controls
+	Keep people away from the technology
+	E.g. door locks, fences, cameras
+Technical controls
+	Hardware and software to keep things secure
+	Firewalls, active directory authentication, disk encryption
+Admintrative controls
+	Policies and procedures
+	Onboarding and offboarding 
+	Backup media handling
+
+Logical Segmentation with VLANs
+Virtual Local Area Networks(VLANs)
+	Separated logically instead of physically
+	Cannot communicate between VLANs withough a Layer 3 device/ router
 
 
