@@ -1073,3 +1073,47 @@ Correlation
 	Combine and compare
 	View data in different ways
 
+COMMON ATTACKS
+
+Denial of Service
+Force a service to fail
+	Overlaod the service
+Take advantage of a design failure or vulnerability
+	Keep your systems patched!
+Cause a system to be unavailable 
+	Competitive advantage
+Create a smokescreen for some other exploit
+	Precursor to a DNS spoofing attack
+Doesnt have to be complicated 
+	Turn off the power
+
+A “friendly DoS
+Unintentional DoSing
+
+Botnets
+A group of bots working together
+	Nothing good can come from this
+Distributed Denial of Service (DDoS)
+	The power of many
+
+Stopping the bot
+Prevent the initial infection
+	OS and application patches
+	Anti-virus/anti-malware and updated signatures
+Identify and existing infection
+	On-demand scans
+	Network monitoring
+Prevent command and control (C&C)
+	Block at the firewall
+	Identify at the workstation with a host-based firewall or host-based IPS
+
+On-path Network Attack
+How can an attacker watch without you knowing?
+	Formally know as man-in-the-middle
+Redirects your traffic
+	The  passes it on to the destination
+	You never know your traffic was redirected
+ARP poisoning 
+	On-path attack on the local IP subnet
+	ARP has no security
+
