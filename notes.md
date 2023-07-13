@@ -1117,3 +1117,30 @@ ARP poisoning
 	On-path attack on the local IP subnet
 	ARP has no security
 
+Other on-path attacks
+Get in the middle of the conversation and view or change information
+	Session hijacking
+	HTTPS spoofing
+	Wi-Fi eavesdropping 
+Encryption fixes most of these situations
+	Your cant change what you can’t see
+
+VLAN Hopping
+Define different VLANs
+	Organizational, network engineering, security
+You only have access to your VLAN
+	Good security best practice
+“Hop” to another VLAN
+	This shouldnt happen
+Two primary methods
+	Switch spoofing
+	Double tagging
+
+Switch Spoofing
+Some switches support automatic configuration
+	Is the swtch port for a device, or is it a trunk?
+There’s no authentication required
+	Pretend to be a switch
+	Send trunk negotiations
+Now you’ve got a trunk link to a switch
+	Send and receive from any configured VLAN
