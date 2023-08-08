@@ -72,3 +72,23 @@ Provides protocols that allow the software to send and receive information and p
 HTTP, FTP, DNS, POP3
 	Deals with:
 		Your eyes
+
+Data Packet
+A unit of data is made into a single package that travels along a given network path. 
+Are used in the Internet Protocol (IP) transmission for data that navigates the Web, and in other kinds of networks
+
+Frames
+Devices on a network send and receive data in discrete chunks called frames (or packets)
+	Frames are a maximum of 1500 bytes in size
+Frames are created and destroyed inside a network interface card (NIC)
+
+Network Interface Card (NIC)
+Acts as a middleman between a computer and a data network. 
+For example, when a user requests a webpage, the computer will pass the request to the network card, which converts it into electrical impulses
+
+MAC Address
+A unique 48-bit identifier for a NIC
+Frames have a destination and source MAC addresses
+NICs use MAC addresses to decide whether or not to process a frame
+Use the “ipconfig /all” command prompt to display all current TCP/IP network configuration values 
+	The “Physical Address” represents the MAC address
