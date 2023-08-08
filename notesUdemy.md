@@ -45,3 +45,21 @@ Used when accessing a webpage, but the page is so large that you can’t send al
 Have to split it up into separate frames and send those individual pieces across the network, where they are put back together on the other side. 
 	Deals with:
 		TCP Segment, UDP Datagram
+Layer 5: Session Layer
+	Part of the hosts that actually makes the connection to the remote host
+Communication management between devices
+	Starts stops, or restarts communications between one endpoint and another
+Use control protocols or tunneling protocols to begin communication between the different endpoints
+If the IP address gets the data to the right computer, it is the port numbers that are part of your packet that get the data to the right application. 
+Deals with:
+		Control protocols, tunneling protocols
+  
+Layer 6: Presentation Layer		
+The main job is to make sure that data not only gets to the right application but more importantly, gets it in a format that the application can view
+Just before we’re able to view information on our screen, the presentation layer puts the data into a form we can understand
+Character encoding
+Application encryption 
+Often combined with the Application Layer
+Deals with:
+	Application encryption (SSL/ TLS)
+
