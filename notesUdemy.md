@@ -124,9 +124,17 @@ Default gateway
 The connection to your router itself
 
 
+Packets and Ports
+Port numbers help direct packet traffic between the source and destination
+Port 80 is for HTTP
+Port 20 and port 21 are for File Transfer Protocol (FTP)
+Pockets have sequence numbers so the network software can assemble the file correctly
 
-a broadcast domain
-	Broadcast Domain
-A division of a computer network in which all nodes/devices can receive broadcast traffic from each other at the data layer link
-	The broadcast address looks like this:
-		FF-FF-FF-FF-FF-FF
+Transmission Contol Protocol (TCP)
+Connection-oriented conversation between two computers to make sure that the data gets whole, complete, and in order 
+Big pieces of TCP:
+Sequencing number → allows you to reassemble everything properly. As well as the acknowledgment that everything is good when a data set comes in. 
+
+User Datagram Protocol (UDP)
+Connectionless conversation between two computers
+Less reliable compared to TCP, but works quickly
