@@ -84,6 +84,7 @@ Frames are created and destroyed inside a network interface card (NIC)
 
 Network Interface Card (NIC)
 Acts as a middleman between a computer and a data network. 
+Used in Layer 2, the Data Link layer which contains the MAC address
 For example, when a user requests a webpage, the computer will pass the request to the network card, which converts it into electrical impulses
 
 MAC Address
@@ -92,10 +93,39 @@ Frames have a destination and source MAC addresses
 NICs use MAC addresses to decide whether or not to process a frame
 Use the “ipconfig /all” command prompt to display all current TCP/IP network configuration values 
 	The “Physical Address” represents the MAC address
+Uses hexadecimal and can use values of 0-9 and A-F
 
 Broadcast vs Unicast
 Unicast transmission is addressed to a single device on a network
 Broadcast transmission is sent to every device in a broadcast domain
+	Broadcast Domain
+A division of a computer network in which all nodes/devices can receive broadcast traffic from each other at the data layer link
+	The broadcast address looks like this:
+		FF-FF-FF-FF-FF-FF
+
+IP Address
+A unique address that helps to identify a network connection
+Used for routing and transmission of data packets over the internet
+Unlike MAC Addresses, IP addresses are not fixed. You can apply your own IP address
+	It is assigned by the network administrator or internet service provider(ISP)
+IP packets always sit within frames. 
+	The IP packet within the frame never changes 
+An IPv4 address looks like this: 31.44.17.231
+
+Router
+A router connects two computers on two different networks.
+Moves data between two or more computer networks
+Looks at IP addresses to send data to the proper networks 
+
+Switch
+Received incoming data packets and redirects them to their destination on a local area network (LAN)
+
+Default gateway
+The connection to your router itself
+
+
+
+a broadcast domain
 	Broadcast Domain
 A division of a computer network in which all nodes/devices can receive broadcast traffic from each other at the data layer link
 	The broadcast address looks like this:
