@@ -92,3 +92,11 @@ Frames have a destination and source MAC addresses
 NICs use MAC addresses to decide whether or not to process a frame
 Use the “ipconfig /all” command prompt to display all current TCP/IP network configuration values 
 	The “Physical Address” represents the MAC address
+
+Broadcast vs Unicast
+Unicast transmission is addressed to a single device on a network
+Broadcast transmission is sent to every device in a broadcast domain
+	Broadcast Domain
+A division of a computer network in which all nodes/devices can receive broadcast traffic from each other at the data layer link
+	The broadcast address looks like this:
+		FF-FF-FF-FF-FF-FF
