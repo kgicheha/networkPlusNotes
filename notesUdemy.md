@@ -26,3 +26,22 @@ Data Link Control (DLC) protocols
 The “switching” layer
 Deals with:
 Frames, MAC address, Extended Unique Identifier (EUI-48, EUI-64), Switch
+
+Layer 3: Network Layer
+	The “routing” layer
+Associated with the Internet Protocol (IP)
+	Takes a look at the IP address to ensure that the data is supposed to be sent to you.
+		Frames will be broken into smaller pieces to traverse different networks 
+	Deals with:
+		IP Address, Router, Packet
+Layer 4: Transport Layer
+	The “post office” layer
+		Parcels and letters
+	The main job of this layer is to assemble and disassemble different pieces of data as they come in. 
+	Protocols used at layer 4:
+		TCP (Transmission Control Protocol)
+		UDP (User Datagram Protocol)
+Used when accessing a webpage, but the page is so large that you can’t send all the data in one single frame
+Have to split it up into separate frames and send those individual pieces across the network, where they are put back together on the other side. 
+	Deals with:
+		TCP Segment, UDP Datagram
