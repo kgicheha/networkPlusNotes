@@ -63,3 +63,12 @@ Often combined with the Application Layer
 Deals with:
 	Application encryption (SSL/ TLS)
 
+Layer 7: Application Layer
+	The layer we see 
+The layer provides ways for manipulating the data (information) 
+Used by the end-user software such as web browsers and email clients
+Provides protocols that allow the software to send and receive information and present meaningful data to the users
+	Example:	
+HTTP, FTP, DNS, POP3
+	Deals with:
+		Your eyes
