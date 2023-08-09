@@ -158,4 +158,26 @@ Still used in many Metro Area Networks (MANs) and Wide Area Networks (WANs)
 	Dual rings 
 	Built-in fault tolerance 
 
+Star Topology
+May be referred to as hub and spoke
+Considered a hybrid
+Used in most large and small networks
+All devices are connected to a central device
+Swtiched Ethernet networks
+	The switch is in the middle
+
+
+Mesh Topology
+Each host is connected to all other hosts
+Multiple links to the same place
+	Fully connected
+	Partially connected 
+Helps deal with redundancy, fault-tolerance, load balancing
+Used in wide area networks (WANs)
+	Fully meshed and partially meshed
+Commonly used in IOT devices
+
+Hybrid Topology
+A combination of one or more physical topologies 
+Most networks are a hybrid	
 
