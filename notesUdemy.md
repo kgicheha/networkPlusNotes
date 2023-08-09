@@ -138,3 +138,24 @@ Sequencing number → allows you to reassemble everything properly. As well as t
 User Datagram Protocol (UDP)
 Connectionless conversation between two computers
 Less reliable compared to TCP, but works quickly
+
+
+Chapter 2: CABLING AND TOPOLOGY
+Physical Topolgy
+Actual layout of devices
+Logical Topology
+How the data flows from host to host
+
+Bus Topology
+Early local area networks
+	Coaxical cable was the bus
+Simple, but prone to errors
+	One break in the link disabled the entire network
+
+Ring Topology
+Used in many popular topologies
+Still used in many Metro Area Networks (MANs) and Wide Area Networks (WANs)
+	Dual rings 
+	Built-in fault tolerance 
+
+
