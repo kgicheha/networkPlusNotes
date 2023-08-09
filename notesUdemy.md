@@ -250,3 +250,33 @@ Cat 8
 Shielded Twisted Pair (STP)
 Acts as a conducting shield by covering the four pairs of signal-carrying wires as a means to reduce electromagnetic interference
 
+Fire Ratings
+Cable fire rating is normally clearly marked on the manufacturer’s box
+Plenum-rated → most fire resistant→ more expensive than PVC cables
+Riser-rated → cable that go in non-plenum spaces and between multiple floors of buldings
+PVC or non-plenum rated → not considered fire/smoke resistant 
+
+Ethernet
+Ethernet is defined by the IEEE 802.3 standard
+The IEEE has defined many versions of Ethernet
+The Ethernet standard consists of 3 parts:
+	A number → specifies the data transmission speed of the media
+Contains a word(most “Base”) → indicates the technology or the method the media uses to transit data → the word “Base” signifies a type of network that uses only one carrier frequency for singaling and required all network stations to share its use
+A number of letters → signifies the length or type of the cable tha the media uses in implementation →For example, if the standard contains a letter T in this part, it means the standard uses a twisted-pair cabling. Or if a standard contains a number 5 in this part, it means the standard can span 500 meters long 
+
+Example: 10GBaseT → contains 10 Gigabit speed, uses Cat6 or higher grade UTP cable. 
+
+Ethernet Frames Consists of:
+	Preamble → informs the receiving system that a frame is starting and enables synchronisation
+Start Frame Delimiter (SFD) → signifies that the destination MAC address field begins with the next byte
+	Destination MAC Address → identifies the receiving system
+	Source MAC → identifies the sending system
+	Type → defines the type of protocol inside the frame, for example IPv4 or IPv6
+Data and Pad → contains the payload data. Padding data is added to meet the minimum length requirement for this field (46 bytes)
+Frame Check Sequence (FCS) → contains a 32-bit Cyclic Redundancy Check (CRC) which allows detection of corrupted data 
+A jumbo frame can carry 9000 bytes
+
+Terminating Twisted Pair
+An RJ-455 connector is used to connect to most network cards
+Pay attention when crimping to follow the TIA/EIA-568A or 568B
+
