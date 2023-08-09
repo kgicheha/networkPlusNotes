@@ -181,3 +181,70 @@ Hybrid Topology
 A combination of one or more physical topologies 
 Most networks are a hybrid	
 
+
+Wireless topology
+Infrastructure
+	All devices communicate through an access point
+	The most common wireless communication mode
+Ad hoc networking
+	No pre-existing infrastructure
+	Devices communication amongst themselves
+Mesh
+	Ad hoc devices work together to form a mesh “cloud”
+	Self form and self heal
+
+Coaxical Cabling 
+Coaxial cable has two conductors:
+	One center point and a tubular conducting layer
+Radio grade (RG) specifies the thickness of the conductors, insulation, and shieling
+
+RG-6 has a resistance of 75-Ohm rating and is commonly used for cabling networks
+	Used a threaded F-type connector
+Advantages of Coaxical Cables
+	Highly resistant to electromagmentic interference (EMI)
+	Highly resistance to physical damage
+
+BNC Connector
+allows for quick connect and disconnect
+Is used to connect the RG cables
+
+Twinaxial Cable
+Two twin inner conductors
+
+Twisted Pair Cabling
+Twisted cables reduce electromagnetic interference (EMI) and crosstalk
+Modern twisted pair has four or more pairs of cables
+
+Unshielded Twisted Pair (UTP)
+Unshielded and more susceptible to interference and environmental factors
+Has a maximum distance of 100 meters (325 ft)
+Uses a RJ-45 connector
+Comes in two standards:
+	TIA/EIA-568 and TIA/EIA-568B
+
+
+UTP Category Ratings
+Define the speed and length of cables
+Type
+Distance
+Max Bandwidth
+Cat 5
+100 meters
+100 Mbps up to 1 Gbps
+Cat 5e
+100 meters
+1 Gbps (better EMI protection)
+Cat 6 
+55 meters
+10 Gbps (only up to 55 meters with 10GBASE-T network)
+Cat 6a
+100 meters
+10 Gbps (better EMI and crosstalk protection)
+Cat 7
+100 meters
+10+ Gbps
+Cat 8
+100 meters
+25 Gbps (40 Gbps at 30 meters, 40GBASE-T network)
+
+
