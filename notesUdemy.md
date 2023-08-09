@@ -247,4 +247,6 @@ Cat 8
 100 meters
 25 Gbps (40 Gbps at 30 meters, 40GBASE-T network)
 
+Shielded Twisted Pair (STP)
+Acts as a conducting shield by covering the four pairs of signal-carrying wires as a means to reduce electromagnetic interference
 
