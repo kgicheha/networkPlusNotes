@@ -290,3 +290,8 @@ CSMA/CD is used for devices to listen and see who is communicating
 ARP is a method used to get the MAC addresses of hosts
 Full-duplex is a communication mode where two devices can talk at the same time
 Carrier sense multiple access/ collision avoidance (CSMA/CA) is for collision avoidance rather than detection
+
+Spanning Tree Protocol (STP)
+A layer 2 network protocol used to prevent looping within a network topology
+Sends frames called Bridge protocol data units (BPDUs)
+
