@@ -280,3 +280,13 @@ Terminating Twisted Pair
 An RJ-455 connector is used to connect to most network cards
 Pay attention when crimping to follow the TIA/EIA-568A or 568B
 
+Hubs and Switches
+Switches forward frames based on MAC addresses
+Switches create and use MAC addresses tables to map ports and host devices
+Switches put all hosts in their own collision domain
+Hubs use Carrier sense multiple access/ collision detection(CSMA/CD) to avoid collisions
+CSMA/CD is used for devices to listen and see who is communicating 
+
+ARP is a method used to get the MAC addresses of hosts
+Full-duplex is a communication mode where two devices can talk at the same time
+Carrier sense multiple access/ collision avoidance (CSMA/CA) is for collision avoidance rather than detection
