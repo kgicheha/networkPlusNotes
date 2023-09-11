@@ -307,3 +307,25 @@ Patch panels and RJ-45 connectors also have Cat ratings
 The primary equipment room is called the Main Distribution Frame (MDF)
 Rack-mounted equipment is standardized at 19” wide and a multiple of 1 ¾ “ tall (called a U or unit)
 The demarc separates the telecom company’s property from your responsibility. 
+A 66-punchdown blockis a very old patch panel, typically used in a non-VOIP telephone systems’
+A 110-punchdown block patch panel is the way to distribute copper wired networks
+A fiber distribution patch panel is used to distribute fiber-optic networks
+Continuity testing will show if the cable has any breaks
+A time domain reflector(TDR) will show the length of the cable and help pinpoint mid-cable breaks 
+
+Patch cables and wall outlets are the most common part of structured cabling to fail
+Loopback adapters test the network card’s ability to send and receive
+Loop back address is 127.0.0.1
+Use ping 127.0.0.1 to check whether the network interface card is working
+
+Multimeters test a variety of metrics such as voltage, current, resistance, and frequency
+Voltage monitors track and record drops in voltage which can show problems with power
+Time domain reflectometers (TDRs) are great tools to chck for breaks in horizontal runs
+
+Tone generators and tone probes are used to locate cables and connections
+Tone generators create the signal for the probe
+Tone probes translate the signal into an audible tone
+
+For jitters in VOIP and video streaming, consider buffering or increasing speed.
+Make sure the patch cable specification is up-to-date with the network speed
+If switch lights are not blinking, try different ports or check if it’s an uplink port  
