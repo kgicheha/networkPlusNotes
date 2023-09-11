@@ -305,6 +305,8 @@ RJ-45 crimps are used only on patch cables
 Horizontal runs are terminated with 110-punch-downs
 Patch panels and RJ-45 connectors also have Cat ratings
 The primary equipment room is called the Main Distribution Frame (MDF)
+IDF is a smaller version of the MDF, and usually sits in another location that eventually routes back to the MDF
+The demarcation point can be any where in your organization
 Rack-mounted equipment is standardized at 19” wide and a multiple of 1 ¾ “ tall (called a U or unit)
 The demarc separates the telecom company’s property from your responsibility. 
 A 66-punchdown blockis a very old patch panel, typically used in a non-VOIP telephone systems’
@@ -329,3 +331,7 @@ Tone probes translate the signal into an audible tone
 For jitters in VOIP and video streaming, consider buffering or increasing speed.
 Make sure the patch cable specification is up-to-date with the network speed
 If switch lights are not blinking, try different ports or check if it’s an uplink port  
+
+Horizontal runs go through the plenum space
+The equipment room is where all devices eventual connect to
+The work area is where an end-user would be 
