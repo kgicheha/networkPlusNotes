@@ -295,3 +295,15 @@ Spanning Tree Protocol (STP)
 A layer 2 network protocol used to prevent looping within a network topology
 Sends frames called Bridge protocol data units (BPDUs)
 
+
+Chapter 5: Installing a Physical Network
+
+Structures cabling defines how we install cabling
+TIA standards specify wiring standards for structured cabling
+Patch panels terminate one end of horizontal runs
+RJ-45 crimps are used only on patch cables
+Horizontal runs are terminated with 110-punch-downs
+Patch panels and RJ-45 connectors also have Cat ratings
+The primary equipment room is called the Main Distribution Frame (MDF)
+Rack-mounted equipment is standardized at 19” wide and a multiple of 1 ¾ “ tall (called a U or unit)
+The demarc separates the telecom company’s property from your responsibility. 
