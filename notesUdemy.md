@@ -335,3 +335,44 @@ If switch lights are not blinking, try different ports or check if it’s an upl
 Horizontal runs go through the plenum space
 The equipment room is where all devices eventual connect to
 The work area is where an end-user would be 
+
+Chapter 6: TCP/IP Basics
+IP Address
+Unique number that identifies a device on the internet, acting as the device’s logical address to identify that network connection. 
+Assigned to every device connected to the Interne so the internet knows where to send your emails and data to
+It corresponds to Layer 3, the network layer of the OSI model. 
+
+IP Address Classes
+IP addresses are broken into 5 different classes
+Class A: reflects the network portion in the first octet, and leaves octets 2,3,and 4 for the network manager to divide into hosts and subnets as needed. Used for networks with more than 65k hosts
+Class B: claims the first two octets for the network, leaving the remaining part of the address, octets 3 and 4 for networks with 256 to 56k hosts
+Class C: claims the first three octets wit the hosts and subnets in the remaining 8 bits of octet 4. Class C is reserved to networks with fewer than 254 hosts
+Class D: reserved for multicasting
+Class E: reserved for research by the Internet Engineering Task Force (IETF)
+Examples of IP address classes
+	Class A: 255.0.0.0
+	Class B: 255.255.0.0
+	Class C: 255.255.255.0
+
+Each computer on a TCP/IP network must have a unique IP address
+IPv4 addressed are written as four octets, such as 192.168.4.12
+Each octet represents a binary string
+	Example 192, represents 11000000
+Decimal to binary Example → 224
+128 64 32 16 8 4 2 1
+1      1   1   0  0 0 0 0
+
+Address Resolution Protocol (ARP)
+Protocol at the data link layer that a computer uses when it knows the IP address but need the MAC address
+ARP requests are broadcast over a network
+ARP command: arp -a
+
+Subnet Masks
+A 32-bit address that separates an IP address into network address and host address that identify the host device operating on that network
+The “255” address is always assigned to a broadcast address, and the “0” address is always assigned to a network address. Neither can be assigned to hosts, as they are reserved for those special purposes
+When organization need additional subnetworking, subnetting divides the host element of the IP address further into a subnet. 
+Each host needs to have a subnet mask
+The host uses the subnet mast to know if the destination is on the local network or a remote network
+Each host knows the default gateway so that it can forward traffic to remote networks
+
+
