@@ -345,8 +345,11 @@ It corresponds to Layer 3, the network layer of the OSI model.
 IP Address Classes
 IP addresses are broken into 5 different classes
 Class A: reflects the network portion in the first octet, and leaves octets 2,3,and 4 for the network manager to divide into hosts and subnets as needed. Used for networks with more than 65k hosts
+	Range: 0-126
 Class B: claims the first two octets for the network, leaving the remaining part of the address, octets 3 and 4 for networks with 256 to 56k hosts
+	Range: 192-223
 Class C: claims the first three octets wit the hosts and subnets in the remaining 8 bits of octet 4. Class C is reserved to networks with fewer than 254 hosts
+	Range: 224-239
 Class D: reserved for multicasting
 Class E: reserved for research by the Internet Engineering Task Force (IETF)
 Examples of IP address classes
@@ -365,7 +368,9 @@ Decimal to binary Example → 224
 Address Resolution Protocol (ARP)
 Protocol at the data link layer that a computer uses when it knows the IP address but need the MAC address
 ARP requests are broadcast over a network
-ARP command: arp -a
+Broadbact address for ARP:
+	FF:FF:FF:FF:FF:FF
+ARP cache command: arp -a
 
 Subnet Masks
 A 32-bit address that separates an IP address into network address and host address that identify the host device operating on that network
@@ -374,5 +379,38 @@ When organization need additional subnetworking, subnetting divides the host ele
 Each host needs to have a subnet mask
 The host uses the subnet mast to know if the destination is on the local network or a remote network
 Each host knows the default gateway so that it can forward traffic to remote networks
+Subnets masks have all 1s on the left and all 0s on the right
+The more subnets you have the less hosts are available 
+
+Subnet example:
+172.16.3.0 /24 subnet mask will be 255.255.255.0
+	3 octets are taken
+
+Classless Inter-Domain Routing (CIDR)
+Way to combine several class-C address ranges into single network or route
 
 
+Dynamic Host Configuration Protocol (DHCP)
+A client/server protocol that automatically provides an IP host with its IP address and other related configuration information such as subnet mask and default gateway
+Each broadcast domain must have only one DHCP server
+The DHCP server must be run within the broadcast domain
+Every modem operating system comes with DHCP enabled by default
+Command prompt to display network information
+	Ipconfig for Windows/masOS
+	Ifconfig in Linux
+
+Special IP Addresses
+Private IP Address/ Internal IP Addresses → only shares information within network
+Any IP address that starts with a 10.X.X.X
+Any IP address from 172.16.x.x - 172.31.x.x
+Any IP address 192.168.x.x
+Loop back address → only communicates with itself
+	Ipv4 →127.0.0.1
+	Ipv6 → ::1
+Automatic Private IP Addressing (APIPA) → indicates the DHCP server is down
+	169.254.x.x
+
+Virtual machines can be a source of duplicate MAC address errors
+
+
+Chapter 7: Routing
